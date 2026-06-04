@@ -72,9 +72,9 @@ export default function Home() {
           {/* tagline aligned right */}
           <div className="hero-mid-row">
             <p className="hero-tagline">
-              Hi, I&apos;m Duwy, A UI/UX Designer<br />
-              Creating Intuitive Digital<br />
-              Experiences.
+              Hi, I&apos;m Andreast, Website Design,<br />
+              Website Development, &<br />
+              Graphic Design.
             </p>
           </div>
 
