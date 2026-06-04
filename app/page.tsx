@@ -65,7 +65,7 @@ export default function Home() {
           {/* giant title */}
           <div className="hero-title-wrap">
             <h1 className="hero-title">
-              Product<br />Designer
+              Website<br />Development
             </h1>
           </div>
 
