@@ -27,7 +27,7 @@ export default function Header() {
               <rect x="11" y="11" width="9" height="9" rx="2" fill="currentColor" />
             </svg>
           </span>
-          <span className="site-header__logo-text">Duwy</span>
+          <span className="site-header__logo-text">Andreast</span>
         </Link>
 
         {/* Desktop nav */}

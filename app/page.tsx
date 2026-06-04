@@ -53,7 +53,7 @@ export default function Home() {
 
           {/* top: greeting + floating photo */}
           <div className="hero-top-row">
-            <span className="hero-greeting">Hello, I&apos;m Duwy 👋</span>
+            <span className="hero-greeting">Hello, I&apos;m Andreast</span>
             <div className="hero-image-float">
               <div className="hero-img-box">
                 {/* swap src with your real photo */}

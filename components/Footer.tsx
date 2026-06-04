@@ -19,13 +19,11 @@ export default function Footer() {
                   <rect x="11" y="11" width="9" height="9" rx="2" fill="currentColor" />
                 </svg>
               </span>
-              <span className="site-footer__logo-text">Duwy</span>
+              <span className="site-footer__logo-text">Andreast</span>
             </Link>
 
             <p className="site-footer__tagline">
-              Dewo Product Image and Video Generator
-              is a cutting-edge commerce product that
-              uses artificial intelligence (AI)
+              Web Design and Development (AI)
             </p>
 
             <div className="site-footer__socials">
@@ -62,18 +60,14 @@ export default function Footer() {
           {/* Col 2 — Address */}
           <div className="site-footer__col">
             <h4 className="site-footer__col-title">Address</h4>
-            <p className="site-footer__col-text">Technology Park 7-12 Gumpang</p>
-            <p className="site-footer__col-text">Recidance 57292 Surakarta Indonesia</p>
+            <p className="site-footer__col-text">Denpasar, Bali - Indonesia</p>
           </div>
 
           {/* Col 3 — Email */}
           <div className="site-footer__col">
             <h4 className="site-footer__col-title">Email Address</h4>
-            <a href="mailto:hallo@dewadewi.com" className="site-footer__col-link">
-              hallo@dewadewi.com
-            </a>
-            <a href="mailto:taskeye@gmail.com" className="site-footer__col-link">
-              taskeye@gmail.com
+            <a href="mailto:hallo@andreast.com" className="site-footer__col-link">
+              hallo@andreast.com
             </a>
           </div>
 
@@ -81,10 +75,7 @@ export default function Footer() {
           <div className="site-footer__col">
             <h4 className="site-footer__col-title">Phone Number</h4>
             <a href="tel:+02711314564232" className="site-footer__col-link">
-              (0271) 131 4564 232
-            </a>
-            <a href="tel:+082124720342342" className="site-footer__col-link">
-              08212472034234 2
+              123456789
             </a>
           </div>
 
@@ -104,7 +95,7 @@ export default function Footer() {
 
         {/* BOTTOM ROW */}
         <div className="site-footer__bottom">
-          <p className="site-footer__copy">All rights reserved @Duwy</p>
+          <p className="site-footer__copy">All rights reserved @Andreast</p>
         </div>
 
       </div>
