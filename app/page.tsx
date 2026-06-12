@@ -7,44 +7,28 @@ export default function Home() {
 
   const works = [
     {
-      title: "E-Commerce App",
-      date: "May 5, 2023",
-      desc: "Website Redesign: Improving user experience and modernizing design.",
-      tags: ["UIUX", "Branding"],
+      title: "Logo, Invitation Card & Invitation Website",
+      date: "2026",
+      desc: "A complete invitation branding project covering logo creation, invitation card design, and the development of a custom e-invitation website.",
+      tags: ["Website Design", "Website Development", "Graphic Design"],
       color: "#e8e4de",
       accentColor: "#c8c4bc",
     },
     {
-      title: "Finance Dashboard",
-      date: "Mar 12, 2023",
-      desc: "Website Redesign: Improving user experience and modernizing design.",
-      tags: ["Mobile App", "Website Design"],
-      color: "#dde4e8",
-      accentColor: "#b8c4cc",
-    },
-    {
-      title: "Fitness Tracker",
-      date: "Jan 8, 2023",
-      desc: "Website Redesign: Improving user experience and modernizing design.",
-      tags: ["UIUX", "Branding"],
-      color: "#e4e8de",
-      accentColor: "#c4ccb8",
-    },
-    {
-      title: "Social Media Dashboard",
-      date: "Nov 20, 2022",
-      desc: "Website Redesign: Improving user experience and modernizing design.",
-      tags: ["Branding", "Website Design"],
-      color: "#e8dde4",
-      accentColor: "#ccb8c4",
+      title: "Logo & Invitation Website",
+      date: "2026",
+      desc: "A thoughtfully crafted invitation experience featuring custom logo design and a modern e-invitation website, designed to blend visual elegance with seamless functionality across all devices.",
+      tags: ["Website Design", "Website Development", "Graphic Design"],
+      color: "#e8e4de",
+      accentColor: "#c8c4bc",
     },
   ];
 
   const experiences = [
-    { role: "Product Designer",      company: "Uber",    period: "2020 – 2021" },
-    { role: "Lead Product Designer", company: "Rovio",   period: "2021 – 2022" },
-    { role: "Head of Product",       company: "Spotify", period: "2022 – 2023" },
-    { role: "Design Director",       company: "Google",  period: "2023 – Now" },
+    { role: "Graphic Designer",      company: "Freelance",    period: "2019 – Current" },
+    { role: "Website Developer", company: "Cabaretti Web Development & Design",   period: "2022 – 2024" },
+    { role: "Lead Website Developer",       company: "Jupitr Agency", period: "2024 – Current" },
+    { role: "Quality Assurance",       company: "Jupitr Agency", period: "2026 – Current" },
   ];
 
   const clients = ["Django", "Portal", "Dojo Toolkit", "Rackspace", "Pipefy", "Teamwork"];
@@ -240,19 +224,16 @@ export default function Home() {
         <div className="about__inner">
           <div className="about__left">
             <h2 className="about__title">
-              A visual designer focused on creating emotional digital experience
+              Crafting digital experiences that help businesses grow and stand out
             </h2>
             <p className="about__body">
-              Concentrate on your primary objective which is expanding your business, and leave it
-              to me to ensure that your business is efficiently portrayed in the digital realm and
-              distinguishes itself from the rivals.
+              Transforming ideas into engaging digital experiences through modern websites and impactful visual design, helping brands connect with their audience and stand out in a competitive market.
             </p>
             <a href="#contact" className="btn-primary">About Me</a>
             <div className="about__skills">
-              <span className="about__skill-tag">UIUX</span>
-              <span className="about__skill-tag">Branding</span>
-              <span className="about__skill-tag">Mobile App</span>
               <span className="about__skill-tag">Website Design</span>
+              <span className="about__skill-tag">Website Develop</span>
+              <span className="about__skill-tag">Graphic Design</span>
             </div>
           </div>
 
@@ -260,9 +241,7 @@ export default function Home() {
             <div className="about__profile-card">
               <div className="about__profile-photo" />
               <p className="about__profile-bio">
-                As a Senior Designer with over 10 years of experience, I specialize in creating
-                intuitive and user-centered interfaces for a wide range of digital products and
-                experiences.
+                With over 3 years of experience, I help businesses transform their ideas into engaging digital experiences through strategic website design, web development, and impactful visual branding.
               </p>
               <a href="#contact" className="btn-outline about__profile-cta">Let&apos;s Talk</a>
             </div>
