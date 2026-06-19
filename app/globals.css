@@ -878,7 +878,7 @@ button { font-family: var(--font-body); }
 
 .contact-cta__email {
   font-family: var(--font-display);
-  font-size: 60px;
+  font-size: 52px;
   font-weight: 400;
   color: var(--white);
   letter-spacing: -.03em;
