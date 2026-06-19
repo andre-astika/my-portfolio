@@ -23,7 +23,7 @@ export default function Footer() {
           </Link>
 
           <p className="site-footer__tagline">
-            A freelance web designer &amp; developer currently based in Denpasar, Bali
+            A freelance website designer, website developer &amp; graphic designer currently based in Bali
           </p>
 
           <div className="site-footer__socials">
@@ -33,7 +33,7 @@ export default function Footer() {
             <a href="#" className="site-footer__social">Dribbble</a>
           </div>
 
-          <p className="site-footer__copy">©2024. All rights reserved @Andreast</p>
+          <p className="site-footer__copy">© 2026 Andre. All rights reserved.</p>
         </div>
 
       </div>

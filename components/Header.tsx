@@ -11,7 +11,6 @@ export default function Header() {
     { label: "Home",     num: "01", href: "#hero" },
     { label: "About Me", num: "02", href: "#about" },
     { label: "Works",    num: "03", href: "#works" },
-    { label: "Insights", num: "04", href: "#insights" },
   ];
 
   return (
@@ -21,11 +20,11 @@ export default function Header() {
         <div className="topbar__inner">
           {/* Logo */}
           <Link href="/" className="topbar__logo">
-            <span className="topbar__logo-text">andreast</span>
+            <span className="topbar__logo-text">Andre</span>
           </Link>
 
           {/* Desktop: Let's Talk CTA */}
-          <a href="#contact" className="topbar__cta topbar__cta--desktop">Let&apos;s Talk</a>
+          <a href="#contact" className="topbar__cta topbar__cta--desktop">Get In Touch</a>
 
           {/* Desktop nav trigger (hamburger opens sidebar) */}
           <button

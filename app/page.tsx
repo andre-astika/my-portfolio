@@ -76,7 +76,7 @@ export default function Home() {
   // Ticker — SVG icons per service, duplicated for seamless loop
   const tickerServices = [
     {
-      label: "Web Development",
+      label: "Website Development",
       icon: (
         // Code brackets / terminal icon
         <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -86,7 +86,7 @@ export default function Home() {
       ),
     },
     {
-      label: "Web Design",
+      label: "Website Design",
       icon: (
         // Monitor / screen icon
         <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -140,7 +140,7 @@ export default function Home() {
 
           <div className="hero__text-with-button">
             <a href="#contact" className="btn-primary">
-              Let&apos;s Talk
+              Get In Touch
             </a>
             <p className="hero__sub">
               Designing and developing digital experiences with a strong focus on aesthetics, functionality, and user experience.
@@ -243,7 +243,7 @@ export default function Home() {
               <p className="about__profile-bio">
                 With over 3 years of experience, I help businesses transform their ideas into engaging digital experiences through strategic website design, web development, and impactful visual branding.
               </p>
-              <a href="#contact" className="btn-outline about__profile-cta">Let&apos;s Talk</a>
+              <a href="#contact" className="btn-outline about__profile-cta">Get In Touch</a>
             </div>
 
             <div className="about__exp-header">

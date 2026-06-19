@@ -3,8 +3,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Andreast – Web Design & Development",
-  description: "A multidisciplinary designer harnessing the power of design to achieve online goals.",
+  title: "Andre – Web Designer, Web Developer & Graphic Designer",
+  description: "Designing and developing digital experiences with a strong focus on aesthetics, functionality, and user experience.",
+  icons: {
+    icon: "/images/portfolio-favicon-circle.png",
+  },
 };
 
 export default function RootLayout({
