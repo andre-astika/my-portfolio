@@ -164,61 +164,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* ── SELECTED WORKS HEADER ── */}
-      <div className="section-eyebrow">
-        <span>Selected works</span>
-      </div>
-
-      {/* ── WORKS — list with hover-expand image ── */}
-      <section id="works" className="works">
-        {works.map((work, i) => (
-          <div
-            key={i}
-            className="works__item"
-            onClick={() => setOpenWork(openWork === i ? null : i)}
-          >
-            {/* Always-visible header row */}
-            <div className="works__item-header">
-              <div className="works__item-name-block">
-                <h3 className="works__item-title">{work.title}</h3>
-                <span className="works__item-date">{work.date}</span>
-              </div>
-              <p className="works__item-desc">{work.desc}</p>
-              <div className="works__item-tags">
-                {work.tags.map((t) => (
-                  <span key={t} className="works__tag">{t}</span>
-                ))}
-              </div>
-            </div>
-
-            {/* Collapsible image panel */}
-            <div className={`works__item-image-panel${openWork === i ? " works__item-image-panel--open" : ""}`}>
-              <div className="works__item-image-panel-inner">
-                <div className="works__item-image-box" style={{ background: work.color }}>
-                  <div className="works__item-image-box-bg">
-                    {/* Stylized mockup */}
-                    <div className="works__item-mockup">
-                      <div className="works__item-mockup-screen" style={{ background: work.accentColor }}>
-                        <div className="works__item-mockup-bar">
-                          <span className="works__item-mockup-dot" />
-                          <span className="works__item-mockup-dot" />
-                          <span className="works__item-mockup-dot" />
-                        </div>
-                        <div className="works__item-mockup-content" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-
-        <div className="works__view-all">
-          <a href="#works" className="btn-outline">View All Works</a>
-        </div>
-      </section>
-
       {/* ── ABOUT ── */}
       <section id="about" className="about">
         <div className="about__inner">
@@ -271,6 +216,59 @@ export default function Home() {
               <span className="about__partner-meta">UIUX &amp; Branding · 2022</span>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* ── WORKS — list with hover-expand image ── */}
+      <section id="works" className="works">
+        <div className="section-eyebrow">
+          <span>Selected works</span>
+        </div>
+        {works.map((work, i) => (
+          <div
+            key={i}
+            className="works__item"
+            onClick={() => setOpenWork(openWork === i ? null : i)}
+          >
+            {/* Always-visible header row */}
+            <div className="works__item-header">
+              <div className="works__item-name-block">
+                <h3 className="works__item-title">{work.title}</h3>
+                <span className="works__item-date">{work.date}</span>
+              </div>
+              <p className="works__item-desc">{work.desc}</p>
+              <div className="works__item-tags">
+                {work.tags.map((t) => (
+                  <span key={t} className="works__tag">{t}</span>
+                ))}
+              </div>
+            </div>
+
+            {/* Collapsible image panel */}
+            <div className={`works__item-image-panel${openWork === i ? " works__item-image-panel--open" : ""}`}>
+              <div className="works__item-image-panel-inner">
+                <div className="works__item-image-box" style={{ background: work.color }}>
+                  <div className="works__item-image-box-bg">
+                    {/* Stylized mockup */}
+                    <div className="works__item-mockup">
+                      <div className="works__item-mockup-screen" style={{ background: work.accentColor }}>
+                        <div className="works__item-mockup-bar">
+                          <span className="works__item-mockup-dot" />
+                          <span className="works__item-mockup-dot" />
+                          <span className="works__item-mockup-dot" />
+                        </div>
+                        <div className="works__item-mockup-content" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+
+        <div className="works__view-all">
+          <a href="#works" className="btn-outline">View All Works</a>
         </div>
       </section>
 

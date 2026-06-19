@@ -12,7 +12,6 @@ export default function Footer() {
           <div className="site-footer__cta-links">
             <a href="#about" className="site-footer__cta-link">ABOUT ME</a>
             <a href="#works" className="site-footer__cta-link">WORKS</a>
-            <a href="#insights" className="site-footer__cta-link">INSIGHTS</a>
           </div>
         </div>
 
