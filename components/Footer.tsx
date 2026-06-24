@@ -22,7 +22,7 @@ export default function Footer() {
           </Link>
 
           <p className="site-footer__tagline">
-            A freelance website designer, website developer &amp; graphic designer currently based in Bali
+            A website designer, website developer &amp; graphic designer based in Bali
           </p>
 
           <div className="site-footer__socials">
