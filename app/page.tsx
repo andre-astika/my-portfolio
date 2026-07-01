@@ -128,7 +128,7 @@ export default function Home() {
       <section id="hero" className="hero">
         <div className="hero__inner">
           <div className="hero__text-block">
-            <p className="hero__greeting">Hello! I&apos;m Andreast.</p>
+            <p className="hero__greeting">Hello! I&apos;m Andre.</p>
             <h1 className="hero__title">
               <span className="italic">Website</span> Designer{" "}
               <span className="sparkle-text">✦</span>{" "}
@@ -325,8 +325,8 @@ export default function Home() {
       <section id="contact" className="contact-cta">
         <div className="contact-cta__inner">
           <p className="contact-cta__eyebrow">Have a nice work? Let&apos;s talk with me</p>
-          <a href="mailto:hallo@andreast.com" className="contact-cta__email">
-            hallo@andreast.com
+          <a href="mailto:en.andre.st@gmail.com" className="contact-cta__email">
+            en.andre.st@gmail.com
           </a>
           <a href="mailto:hallo@andreast.com" className="contact-cta__arrow-btn">↗</a>
         </div>

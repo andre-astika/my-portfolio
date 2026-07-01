@@ -8,7 +8,7 @@ export default function Footer() {
         {/* CTA Section */}
         <div className="site-footer__cta-section">
           <p className="site-footer__cta-eyebrow">Have an idea?</p>
-          <h2 className="site-footer__cta-title">Let&apos;s rock with me</h2>
+          <h2 className="site-footer__cta-title">let&apos;s rock with me</h2>
           <div className="site-footer__cta-links">
             <a href="#about" className="site-footer__cta-link">ABOUT ME</a>
             <a href="#works" className="site-footer__cta-link">WORKS</a>
@@ -32,7 +32,7 @@ export default function Footer() {
             <a href="#" className="site-footer__social">Dribbble</a>
           </div>
 
-          <p className="site-footer__copy">© 2026 Andre. All rights reserved.</p>
+          <p className="site-footer__copy">© 2026 Andre's Portfolio. All Rights Reserved.</p>
         </div>
 
       </div>
